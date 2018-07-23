@@ -58,14 +58,15 @@ https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arc
 설치파일의 형식에 따라 설치 방법이 다르다. 다음 명령을 참고하여 설치한다.     
 설치방법1. run파일   
 ```
-sudo sh cuda_8.0.61_375.26_linux.run
+sudo sh cuda_9.0.176_384.81_linux.run
 ```
 
 설치방법2. deb파일 
 ```
-sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb   
-sudo apt-get update   
-sudo apt-get install cuda   
+sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb
+sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
+sudo apt-get update
+sudo apt-get install cuda
 ```
 
 설치 여부 확인방법은 아래와 같이 버전이 표시되면 정상적으로 설치된 것입니다.   
