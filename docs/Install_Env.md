@@ -24,7 +24,26 @@ pycharm-community
 
 
 ## Virtual Environment 설치
+pip 및 Virtualenv 설치
+```
+sudo apt-get install python-pip python-dev python-virtualenv
+sudo apt-get install python3-pip python3-dev python-virtualenv
+```
 
+가상환경(virtual environment) 생성 (루트 디렉토리 에서 실행하기)
+```
+virtualenv ENVNAME --python=python3.5
+```
+
+가상환경은 필요에 따라 활성화/비활성화를 할 수 있습니다.
+가상환경 활성화 방법
+```
+source ENVNAME/bin/activate
+```
+가상환경 비활성화 방법
+```
+deactivate
+```
    
 # GPU를 이용한 딥러닝 환경
 ## 그래픽 드라이브 설치
