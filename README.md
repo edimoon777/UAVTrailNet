@@ -7,7 +7,7 @@
 NVIDIA Redtail project 사이트 : https://github.com/NVIDIA-Jetson/redtail   
 
 
-# NVIDIA Redtail project
+# NVIDIA Redtail project !!????
 
 Autonomous visual navigation components for drones and ground vehicles using deep learning. Refer to [wiki](https://github.com/NVIDIA-Jetson/redtail/wiki) for more information on how to get started.
 
