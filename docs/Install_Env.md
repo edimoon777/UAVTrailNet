@@ -31,12 +31,13 @@ sudo apt-get install python3-pip python3-dev python-virtualenv
 ```
 
 가상환경(virtual environment) 생성 (루트 디렉토리 에서 실행하기)
+여기서 'ENVNAME' 부분은 원하는 환경이름을 적어준다.   
 ```
 virtualenv ENVNAME --python=python3.5
 ```
 
-가상환경은 필요에 따라 활성화/비활성화를 할 수 있습니다.
-가상환경 활성화 방법
+가상환경은 필요에 따라 활성화/비활성화를 할 수 있습니다.   
+가상환경 활성화 방법   
 ```
 source ENVNAME/bin/activate
 ```
