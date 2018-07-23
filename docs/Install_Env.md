@@ -28,7 +28,7 @@ CuDNN 설치 버전 확인 방법입니다.
 ```
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2 --
 ```
-| #define CUDNN_MAJOR 7   
+> #define CUDNN_MAJOR 7   
 > #define CUDNN_MINOR 1   
 > #define CUDNN_PATCHLEVEL 3   
 > --   
