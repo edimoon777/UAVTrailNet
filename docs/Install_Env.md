@@ -10,14 +10,17 @@
 ## git 설치
 오픈 소스와의 연동 및 업데이트를 위해 필수적으로 필요합니다.    
 ```
-sudo apt-get update
 sudo apt-get install git
 ```
 ## PyCharm 설치
 아래 명령어를 이용해 설치합니다.   
-`sudo snap install pycharm-community --classic`   
-Pycharm 실행 명령어는 다음과 같습니다.   
-`pycharm-community`   
+```
+sudo snap install pycharm-community --classic
+```   
+Pycharm 실행 명령어는 다음과 같습니다.
+```
+pycharm-community
+```   
 
 
 ## Virtual Environment 설치
