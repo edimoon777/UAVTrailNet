@@ -55,6 +55,19 @@ deactivate
 CUDA 9.0을 다운로드해 설치합니다.  [[Download CUDA 9.0 Ubuntu 16.04]](
 https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal)
 
+설치파일의 형식에 따라 설치 방법이 다르다. 다음 명령을 참고하여 설치한다.     
+설치방법1. run파일   
+```
+sudo sh cuda_8.0.61_375.26_linux.run
+```
+
+설치방법2. deb파일 
+```
+sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb   
+sudo apt-get update   
+sudo apt-get install cuda   
+```
+
 설치 여부 확인방법은 아래와 같이 버전이 표시되면 정상적으로 설치된 것입니다.   
 `nvcc --version`
 >nvcc: NVIDIA (R) Cuda compiler driver   
